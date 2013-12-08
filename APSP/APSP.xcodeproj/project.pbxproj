@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CAF584A16A5E52400075DED /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CAF584916A5E52400075DED /* main.cpp */; };
+		6CAF585916A5EDE900075DED /* vertex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CAF585816A5EDE900075DED /* vertex.cpp */; };
+		6CAF585C16A5F04600075DED /* edge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CAF585B16A5F04600075DED /* edge.cpp */; };
+		6CAF586216A6038800075DED /* graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CAF585E16A5F2DD00075DED /* graph.cpp */; };
+		6CAF586516A60B2800075DED /* BellmanFord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CAF586416A60B2800075DED /* BellmanFord.cpp */; };
+		6CC619C116AB1DF2008E2B0E /* dheap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CC619C016AB1DF2008E2B0E /* dheap.cpp */; };
+		6CC619C416AB3667008E2B0E /* dijkstras.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CC619C316AB3667008E2B0E /* dijkstras.cpp */; };
+		6CC619C916AB4901008E2B0E /* johnsons.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CC619C816AB4900008E2B0E /* johnsons.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6CAF584316A5E52400075DED /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6CAF584516A5E52400075DED /* APSP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = APSP; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CAF584916A5E52400075DED /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6CAF585716A5E99F00075DED /* vertex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vertex.h; sourceTree = "<group>"; };
+		6CAF585816A5EDE900075DED /* vertex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vertex.cpp; sourceTree = "<group>"; };
+		6CAF585A16A5F04100075DED /* edge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = edge.h; sourceTree = "<group>"; };
+		6CAF585B16A5F04600075DED /* edge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = edge.cpp; sourceTree = "<group>"; };
+		6CAF585D16A5F2D200075DED /* graph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = graph.h; sourceTree = "<group>"; };
+		6CAF585E16A5F2DD00075DED /* graph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = graph.cpp; sourceTree = "<group>"; };
+		6CAF586316A60B2200075DED /* BellmanFord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BellmanFord.h; path = APSP/BellmanFord.h; sourceTree = "<group>"; };
+		6CAF586416A60B2800075DED /* BellmanFord.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BellmanFord.cpp; path = APSP/BellmanFord.cpp; sourceTree = "<group>"; };
+		6CC619BB16AB1D74008E2B0E /* dheap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dheap.h; sourceTree = "<group>"; };
+		6CC619C016AB1DF2008E2B0E /* dheap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dheap.cpp; sourceTree = "<group>"; };
+		6CC619C216AB365C008E2B0E /* dijkstras.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dijkstras.h; sourceTree = "<group>"; };
+		6CC619C316AB3667008E2B0E /* dijkstras.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dijkstras.cpp; sourceTree = "<group>"; };
+		6CC619C716AB48FB008E2B0E /* johnsons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = johnsons.h; sourceTree = "<group>"; };
+		6CC619C816AB4900008E2B0E /* johnsons.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = johnsons.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CAF584216A5E52400075DED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CAF583A16A5E52400075DED = {
+			isa = PBXGroup;
+			children = (
+				6CAF585616A5E98F00075DED /* Graph */,
+				6CC619C516AB48D5008E2B0E /* BellmanFord */,
+				6CC619B916AB1D40008E2B0E /* Dijkstras */,
+				6CC619C616AB48E3008E2B0E /* Johnsons */,
+				6CAF584816A5E52400075DED /* APSP */,
+				6CAF584616A5E52400075DED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CAF584616A5E52400075DED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CAF584516A5E52400075DED /* APSP */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CAF584816A5E52400075DED /* APSP */ = {
+			isa = PBXGroup;
+			children = (
+				6CAF584916A5E52400075DED /* main.cpp */,
+			);
+			path = APSP;
+			sourceTree = "<group>";
+		};
+		6CAF585616A5E98F00075DED /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				6CAF585716A5E99F00075DED /* vertex.h */,
+				6CAF585816A5EDE900075DED /* vertex.cpp */,
+				6CAF585A16A5F04100075DED /* edge.h */,
+				6CAF585B16A5F04600075DED /* edge.cpp */,
+				6CAF585D16A5F2D200075DED /* graph.h */,
+				6CAF585E16A5F2DD00075DED /* graph.cpp */,
+			);
+			name = Graph;
+			sourceTree = "<group>";
+		};
+		6CC619B916AB1D40008E2B0E /* Dijkstras */ = {
+			isa = PBXGroup;
+			children = (
+				6CC619BB16AB1D74008E2B0E /* dheap.h */,
+				6CC619C016AB1DF2008E2B0E /* dheap.cpp */,
+				6CC619C216AB365C008E2B0E /* dijkstras.h */,
+				6CC619C316AB3667008E2B0E /* dijkstras.cpp */,
+			);
+			name = Dijkstras;
+			sourceTree = "<group>";
+		};
+		6CC619C516AB48D5008E2B0E /* BellmanFord */ = {
+			isa = PBXGroup;
+			children = (
+				6CAF586316A60B2200075DED /* BellmanFord.h */,
+				6CAF586416A60B2800075DED /* BellmanFord.cpp */,
+			);
+			name = BellmanFord;
+			sourceTree = "<group>";
+		};
+		6CC619C616AB48E3008E2B0E /* Johnsons */ = {
+			isa = PBXGroup;
+			children = (
+				6CC619C716AB48FB008E2B0E /* johnsons.h */,
+				6CC619C816AB4900008E2B0E /* johnsons.cpp */,
+			);
+			name = Johnsons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CAF584416A5E52400075DED /* APSP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CAF584F16A5E52400075DED /* Build configuration list for PBXNativeTarget "APSP" */;
+			buildPhases = (
+				6CAF584116A5E52400075DED /* Sources */,
+				6CAF584216A5E52400075DED /* Frameworks */,
+				6CAF584316A5E52400075DED /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = APSP;
+			productName = APSP;
+			productReference = 6CAF584516A5E52400075DED /* APSP */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CAF583C16A5E52400075DED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = 6CAF583F16A5E52400075DED /* Build configuration list for PBXProject "APSP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6CAF583A16A5E52400075DED;
+			productRefGroup = 6CAF584616A5E52400075DED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CAF584416A5E52400075DED /* APSP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CAF584116A5E52400075DED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CAF584A16A5E52400075DED /* main.cpp in Sources */,
+				6CAF585916A5EDE900075DED /* vertex.cpp in Sources */,
+				6CAF585C16A5F04600075DED /* edge.cpp in Sources */,
+				6CAF586216A6038800075DED /* graph.cpp in Sources */,
+				6CAF586516A60B2800075DED /* BellmanFord.cpp in Sources */,
+				6CC619C116AB1DF2008E2B0E /* dheap.cpp in Sources */,
+				6CC619C416AB3667008E2B0E /* dijkstras.cpp in Sources */,
+				6CC619C916AB4901008E2B0E /* johnsons.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6CAF584D16A5E52400075DED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6CAF584E16A5E52400075DED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6CAF585016A5E52400075DED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = /usr/local/boost_1_48_0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6CAF585116A5E52400075DED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = /usr/local/boost_1_48_0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CAF583F16A5E52400075DED /* Build configuration list for PBXProject "APSP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CAF584D16A5E52400075DED /* Debug */,
+				6CAF584E16A5E52400075DED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CAF584F16A5E52400075DED /* Build configuration list for PBXNativeTarget "APSP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CAF585016A5E52400075DED /* Debug */,
+				6CAF585116A5E52400075DED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CAF583C16A5E52400075DED /* Project object */;
+}
